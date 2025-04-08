@@ -1,0 +1,60 @@
+{
+  "personajes": [
+    {
+      "nombre": "Homero Simpson",
+      "genero": "masculino",
+      "cabello": "calvo",
+      "gafas": "no",
+      "imagen": "imagenes/HOMERO.png"
+    },
+    {
+      "nombre": "Marge Simpson",
+      "genero": "femenino",
+      "cabello": "azul",
+      "gafas": "no",
+      "imagen": "imagenes/MARGE.png"
+    },
+    {
+      "nombre": "Lisa Simpson",
+      "genero": "femenino",
+      "cabello": "amarillo",
+      "gafas": "no",
+      "imagen": "imagenes/Lisa.jpg"
+    },
+    {
+      "nombre": "Bart Simpson",
+      "genero": "masculino",
+      "cabello": "amarillo",
+      "gafas": "no",
+      "imagen": "imagenes/Bart.png"
+    },
+    {
+      "nombre": "Ned Flanders",
+      "genero": "masculino",
+      "cabello": "cafe",
+      "gafas": "si",
+      "imagen": "imagenes/Ned.jpg"
+    },
+    {
+      "nombre": "Nelson Muntz",
+      "genero": "masculino",
+      "cabello": "cafe",
+      "gafas": "no",
+      "imagen": "imagenes/Nelson.png"
+    }
+  ],
+  "preguntas": [
+    "¿Es hombre?",
+    "¿Tiene el cabello azul?",
+    "¿Tiene el cabello amarillo?",
+    "¿Tiene el cabello cafe?",
+    "¿Usa gafas?"
+  ],
+  "mapeo_preguntas": {
+    "¿Es hombre?": "genero",
+    "¿Tiene el cabello azul?": "cabello",
+    "¿Tiene el cabello amarillo?": "cabello",
+    "¿Tiene el cabello cafe?": "cabello",
+    "¿Usa gafas?": "gafas"
+  }
+}
